@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Buy</title>
+    <script src="https://kit.fontawesome.com/9e46569b36.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="./index.html">AdShoe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+       </button>
+      
+       <div class="collapse navbar-collapse" id="colNav">
+        <ul class="navbar-nav ">
+            <li class="nav-item ml-auto">
+                <a class="nav-link" href="./service.html">Service</a>
+            </li>
+            <li class="nav-item ml-auto">
+                <a class="nav-link" href="./about.html">About</a>
+            </li>           
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item ml-auto">
+                <a class="nav-link" href="./login.html">Login</a>
+            </li>
+            <li class="nav-item ml-auto">
+                <a class="nav-link" href="./register.html">Register</a>
+            </li>      
+        </ul>
+        </div>   
+    </nav>
+    
+    <div class="container">
+        <div class="row justify-content-md-center mt-5">
+            <div class="col-md-4">
+                <h3>My cart</h3>
+                <form action="">
+                    <div class="card">
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex jsutify-content-between">
+                                <div>
+                                    <h6 class="my-0">
+                                        Nike 2020 Shoes
+                                    </h6>
+                                    <small>New model Shoes</small> 
+                                </div>
+                                <span class="text-muted ml-auto">200$</span>
+                            </li>
+                            <li class="list-group-item d-flex jsutify-content-between">
+                                <div>
+                                    <h6>
+                                        Sneaker
+                                    </h6>
+                                    <small>An amazing sneaker.</small> 
+                                </div>
+                                <span class="text-muted ml-auto">150$</span>
+                            </li>
+                            <li class="list-group-item d-flex jsutify-content-between">
+                                <div>
+                                    <h6>
+                                        Puma
+                                    </h6>
+                                    <small>Puma shoes.</small> 
+                                </div>
+                                <span class="text-muted ml-auto">100$</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <div>
+                                    <h6>Total</h6>
+                                </div>
+                                <span class="ml-auto font-weight-bold"> 550$</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-7">
+                <h3>Billing</h3>
+            <form action="" class="mb-3">
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" placeholder="Your first name" class="form-control">
+                        </div>   
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" placeholder="Your last name" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                  <label for="userName">User Name</label>
+                  <input type="text" name="" id="userName" class="form-control" placeholder="@username" aria-describedby="helpId">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Example@email.com">
+                </div> 
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" class="form-control" placeholder="Your address">
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col pl-0">
+                            <div class="form-group">
+                                <label for="selectCountry">Country</label>
+                                <select name="" id="selectCountry" class="form-control">
+                                    <option value="UK">UK</option>
+                                    <option value="USA">USA</option>
+                                    <option value="FInland">Finland</option>
+                                    <option value="Greenland">Greenland</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col pr-0">
+                            <div class="form-group">
+                                <label for="selectCountry">State</label>
+                                <select name="" id="selectCountry" class="form-control">
+                                    <option value="South">South</option>
+                                    <option value="West">West</option>
+                                    <option value="East">East</option>
+                                    <option value="North">North</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <hr class="my-4">
+
+                    <div class="form-group">
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" checked>
+                            Use this location for next time
+                          </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-check">
+                          <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue" >
+                            Shipping service
+                          </label>
+                        </div>
+                    </div>
+                <hr class="my-4">
+                 
+                <button class="btn btn-warning w-100">pay</button>      
+            </form>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <footer class="text-light container-fluid pb-3" style="margin-top: 20rem; background-color: #16304e;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md">
+                    <h3>Contact us</h3>
+                    <p>Curabitur ultricies, elit venenatis ullamcorper imperdiet, augue diam porta dui, a pulvinar magna lorem vitae felis. Suspendisse potenti. Cras sollicitudin ut tellus in vehicula.</p>
+                    <div class="row pt-3">
+                        <div class="col-md-1">
+                         <i class="fab fa-facebook" style="font-size: 15px;"></i>
+                        </div>
+                        <div class="col-md-1">
+                         <i class="fab fa-instagram" style="font-size: 15px;"></i>
+                        </div>
+                        <div class="col-md-1">
+                         <i class="fab fa-twitter" style="font-size: 15px;"></i>
+                        </div>
+                        <div class="col-md-9"></div>
+                    </div>
+                 </div>
+                 <div class="col-md-1"></div>
+                 <div class="col-md">
+                    <h3> Links</h3>
+                    <ul class="p-0">
+                        <li>
+                            <a href="">Fusce vel nulla eu elit tristique.</a>
+                        </li>
+                        <li>
+                            <a href="">Proin id arcu a mi tristiqu.</a>
+                        </li>
+                        <li>
+                            <a href="">Integer volutpat turpis non mollis faucibus.</a>
+                        </li>
+                        <li>
+                            <a href="">Quisque aliquam quam quis accumsan tincidunt.</a>
+                        </li>
+                    </ul>
+                 </div>
+                 <div class="col-md">
+                     <h3>Location</h3>
+                     <p> Ethiopia, Gondar Quisque aliquam quam.</p>
+                     <p><i class="fas fa-phone-alt"></i> 0922338844</p>
+                     <p><i class="fas fa-envelope"></i> shoesonline435@gmail.com</p>
+                 </div>
+            </div> 
+            <div class="row mt-2">
+                <div class="col">
+                    <small>
+                        @2021 All rights reserved.
+                    </small>
+                </div>
+            </div>
+        </div>
+     </footer>
+
+
+
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
